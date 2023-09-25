@@ -52,4 +52,86 @@
  			else
  				document.write("not armstrong Number");
  		</script>
+
+   WAP to calculate square if the number is odd and calculate the cube if the number is even?
+  
+   
+   <script>
+ 		 	function sum(){
+         var num=parseInt(prompt("num"));
+         
+         var res=0;
+         if(num%2==0)
+           res=num*num*num;
+         else
+           res=num*num;
+         document.write(res);
+     }
+     sum()
+</script>
+
+   *)Nested If--else:-
+   *) calculate the greatest number?
+
+   <script type="text/javascript">
+ 		 	var a=parseInt(prompt("Enter 1st Number"));
+ 		 	var b=parseInt(prompt("Enter 2nd Number"));
+ 		 	var c=parseInt(prompt("Enter 3rd Number"));
+ 		 	if(a>b)
+ 		 	{
+ 		 		if(a>c)
+ 		 			document.write(" a is greater");
+ 		 		else
+ 		 			document.write("c is greater");
+ 		 	}
+ 		 	else
+ 		 	{
+ 		 		if(b>c)
+ 		 			document.write("b is greater");
+ 		 		else
+ 		 			document.write("c is greater");
+ 		 	}
+
+ 		 </script>
+
+    
+   check vowel and consonant
+
+
+
+   <script>
+ 		 	var ch=prompt("Enter char");
+ 		 	if(ch=='a')
+ 		 		document.write("Vowel");
+ 		 	else
+ 		 		if(ch=='e')
+ 		 			document.write("Vowel");
+ 		 		else
+ 		 			if(ch=='i')
+ 		 				document.write("Vowel");
+ 		 			else
+ 		 				if(ch=='o')
+ 		 					document.write("Vowel");
+ 		 				else
+ 		 					if(ch=='u')
+ 		 						document.write("Vowel");
+ 		 					else
+ 		 						document.write("Consonent");
+ 		 </script>
+  
+  
+ Multiple If:-
+ <script>
+ 		 	 var num=parseInt(prompt("Enter Number"));
+
+ 		 	 if(num%3==0)
+ 		 	 	document.write("Divisible by 3");
+ 		 	 if(num%5==0)
+ 		 	 	document.write("Divisible by 5");
+ 		 	 if(num%7==0)
+ 		 	 	document.write("Divisible by 7");
+ 		 	 if(num%9==0)
+ 		 	 	document.write("Divisible by 9");
+ 		 </script>
+   
  
