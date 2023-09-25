@@ -16,3 +16,23 @@
  </script>
  </body>
  </html>
+
+
+ Greatest number
+
+  <html>
+ 	<head>
+ 		
+ 	</head>
+ 	<body>
+ 		<script type="text/javascript">
+ 			var a=parseInt(prompt("Enter 1st no"));
+ 			var b=parseInt(prompt("Enter 2nd no"));
+ 			if(a>b)
+ 				document.write("a is greater");
+ 			else
+ 				document.write("b is greater");
+ 		</script>
+ 	</body>
+ </html>
+ 
