@@ -133,5 +133,30 @@
  		 	 if(num%9==0)
  		 	 	document.write("Divisible by 9");
  		 </script>
+
+    School marksheet
+
+  <html>
+ 	<head>
+ 		  <script>
+ 		  	var p,c,m,tot,per;
+ 		  	var p=parseInt(prompt("Enter phy Number"));
+ 		  	var c=parseInt(prompt("Enter che Number"));
+ 		  	var m=parseInt(prompt("Entrer math Number"));
+ 		  	tot=p+c+m;
+ 		  	per=tot/3
+ 		  	if(per>60)
+ 		  		document.write(" 1st div");
+ 		  	else
+ 		  		if(per>=50)
+ 		  			document.write("2nd div");
+ 		  		else 
+ 		  		if(per>=40)
+ 		  			document.write("3rd div");
+ 		  		else
+ 		  			document.write("Fail");
+ 		  </script>
+ 	</head>
+ </html>
    
  
