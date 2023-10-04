@@ -158,5 +158,42 @@
  		  </script>
  	</head>
  </html>
+
+   choice ur
+
+   
+ <script>
+ 		    var a,b,c,ch;
+ 		    ch=parseInt(prompt("Enter ur choice 1) add 2)sub 3) mult 4) div"));
+ 		    switch(ch)
+ 		    {
+ 		    case 1:
+ 		    	a=parseInt(prompt("Enter 1st no"));
+ 		    	b=parseInt(prompt("Enter 2nd no"));
+ 		    	c=a+b;
+ 		    	document.write("Add"+c);
+ 		    	break;
+ 		    case 2:
+ 		     a=parseInt(prompt("Enter 1st no"));
+ 		    	b=parseInt(prompt("Enter 2nd no"));
+ 		    	c=a-b;
+ 		    	document.write("sub"+c);
+ 		    	break;
+ 		    case 3: 
+ 		    	a=parseInt(prompt("Enter 1st no"));
+ 		    	b=parseInt(prompt("Enter 2nd no"));
+ 		    	c=a*b;
+ 		    	document.write("mult"+c);
+ 		    	break;
+ 		    case 4: 
+ 		    	a=parseInt(prompt("Enter 1st no"));
+ 		    	b=parseInt(prompt("Enter 2nd no"));
+ 		    	c=a/b;
+ 		    	document.write("div"+c);
+ 		    	break;
+ 		    default: document.write("invalid choice");
+ 		    }
+ 		  	
+ </script>
    
  
