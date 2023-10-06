@@ -195,5 +195,33 @@
  		    }
  		  	
  </script>
+
+   whail loop   
+  
    
+   
+   <script>
+               var i=2;
+               while(i<=50)
+               {
+                    document.write("<br>"+name+""+i);
+               
+               i=i+2;
+          }
+
+    </script>
+
+
+    
+   <script type="text/javascript">
+               var i=1,a;
+               while(i<=50)
+               {
+                    a=i*i;
+                    document.write("<br>"+a+"");        
+                    i=i+1;
+               }
+     </script>
+
+     1 4 9 16...2500
  
